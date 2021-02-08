@@ -1,0 +1,76 @@
+
+
+
+}
+/* секция горея */
+.hero-title {
+  
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height:1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+/* преимущества */
+.advantages-title {
+  color: var(--primary-text-color);
+ 
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase
+}
+
+.advantages-text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-title {
+  color: var(--primary-text-color);
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+.list-text {
+  color: var(--title-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+
+
+

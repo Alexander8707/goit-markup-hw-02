@@ -1,0 +1,106 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  
+
+}
+
+/* основной цвет текста
+ color: #212121; */
+
+/* вторичный цвет текста
+ color: #757575; */
+/*  акцент 
+color: #2196F3 */
+/* цвет текста героя
+color: #FFFFFF; */
+
+/* навигация. */
+body {
+  background: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, 'Segoe UI';
+  font-style: normal;
+  text-decoration: none;
+
+}
+/* логотип */
+.logo-top {
+  color: var(--primary-text-colork);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-bottom {
+  color: #FFFFFF;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* навигация */
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+/* footer */
+.footer {
+  background-color: #2F303A;
+}
+
+.footer-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.footer-link .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.list {
+  list-style: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* связь с компанией */
+.auth-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link {
+  text-decoration: none;
