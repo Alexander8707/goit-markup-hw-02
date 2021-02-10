@@ -2,6 +2,7 @@
 .hero-container {
   background-color: #2F303A;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 }
@@ -11,7 +12,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
+  text-transform: uppercase;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -25,6 +26,11 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-decoration: none;
+  text-transform: none;
+}
+
+.btn {
+  background: var(--accent-color);
 }
 /* преимущества */
 .advantages-title {
