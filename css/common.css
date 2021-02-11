@@ -20,7 +20,7 @@ color: #FFFFFF; */
 body {
   background: #ffffff;
   color: var(--primary-text-color);
-  font-family: Roboto, '';
+  font-family: Roboto, 'Segoe UI';
   font-style: normal;
   text-decoration: none;
 
