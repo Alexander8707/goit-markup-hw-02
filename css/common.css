@@ -20,7 +20,7 @@ color: #FFFFFF; */
 body {
   background: #ffffff;
   color: var(--primary-text-color);
-  font-family: Roboto, 'Segoe UI';
+  font-family: Roboto, '';
   font-style: normal;
   text-decoration: none;
 
@@ -72,6 +72,35 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
+/* footer */
+.footer {
+  background-color: #2F303A;
+  
+}
+
+.footer-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-link .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+.list .footer-link {
+  color: #ffffff;
+}
 /* связь с компанией */
 .auth-nav .link {
   color: var(--title-text-color);
@@ -86,5 +115,3 @@ body {
   color: var(--accent-color);
 }
 
-.link {
-  text-decoration: none;

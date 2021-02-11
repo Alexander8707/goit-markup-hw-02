@@ -7,8 +7,12 @@
 
 }
 /* секция горея */
+.hero {
+  font-weight: 0;
+}
+
 .hero-title { 
-  font-style: 400;
+  
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -27,6 +31,7 @@
   letter-spacing: 0.06em;
   text-decoration: none;
   text-transform: none;
+  
 }
 
 .btn {
